@@ -1,0 +1,81 @@
+form {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 40vh;
+  flex-direction: column;
+  grid-gap: 30px;
+}
+/* body {
+  height: 9000px;
+} */
+form input {
+  padding: 15px 30px;
+  border: 0;
+  background: var(--dark-Color2);
+  border-radius: 30px;
+  margin: 0 5px;
+  outline: 0;
+  color: var(--light-Color);
+  font-weight: 600;
+}
+form input:focus,
+textarea:focus {
+  border: 1px solid var(--main-Color);
+}
+form input::placeholder,
+textarea::placeholder {
+  font-weight: 600;
+  color: var(--light-Color2);
+}
+form a {
+  padding: 10px 50px;
+  color: var(--light-Color);
+  background-color: var(--main-Color);
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+  align-self: flex-start;
+  margin-left: 30px;
+}
+form a:hover {
+  transform: scale(1.1, 1.1);
+}
+textarea::placeholder {
+  font-size: 18px;
+}
+textarea {
+  padding: 10px;
+  width: 94%;
+  background: var(--dark-Color2);
+  border-radius: 30px;
+  outline: 0;
+  padding-left: 30px;
+}
+.info {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 30px;
+  height: 30vh;
+}
+.info .fa-phone-square,
+.info .fa-envelope-open {
+  color: var(--main-Color);
+}
+.change-icon {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 12px;
+  font-weight: 600;
+  border-radius: 50%;
+  background: var(--dark-Color2);
+  cursor: pointer;
+}
+.change-icon:hover {
+  background: var(--main-Color);
+}
